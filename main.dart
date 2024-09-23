@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:ummahbit/chatpage.dart';
+import 'package:helloworld/Kalendar.dart';
 
 void main() {
-  runApp(mainpage());
+  runApp(MyApp());
 }
 
-class mainpage extends StatelessWidget {
-  const mainpage({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Chatapp(),
+      debugShowCheckedModeBanner: true,
+      home: Kalender(),
     );
   }
 }
